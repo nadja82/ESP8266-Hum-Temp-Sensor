@@ -1,4 +1,7 @@
 /************************************************************
+ONLY Recive without Display !!!!
+
+
  * ESP8266 Receiver: Temperatur & Humid über HTTP
  * - mDNS: http://envrx.local/
  * - Endpunkte:
@@ -12,8 +15,8 @@
 #include <ESP8266WebServer.h>
 #include <ESP8266mDNS.h>
 
-const char* WIFI_SSID = "Wilma2001";
-const char* WIFI_PASS = "14D12k82";
+const char* WIFI_SSID = "SSID";
+const char* WIFI_PASS = "PWD";
 const char* HOSTNAME  = "envrx";          // ergibt envrx.local
 const char* TOKEN     = "secret123";      // einfacher Schreibschutz
 
