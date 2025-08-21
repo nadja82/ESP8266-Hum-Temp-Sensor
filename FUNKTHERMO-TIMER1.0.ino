@@ -20,8 +20,8 @@
 #include <EEPROM.h>
 
 // ===== WLAN / Server =====
-const char* WIFI_SSID = "Wilma2001_Ext";
-const char* WIFI_PASS = "14D12k82";              // <-- HIER dein Passwort eintragen
+const char* WIFI_SSID = "SSID";
+const char* WIFI_PASS = "PWD";              // <-- HIER dein Passwort eintragen
 const char* HOSTNAME  = "envrx";         // -> envrx.local
 const char* TOKEN     = "secret123";     // muss zum Sender passen
 ESP8266WebServer server(80);
