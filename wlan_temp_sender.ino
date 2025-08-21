@@ -12,8 +12,8 @@
 #include <DHT.h>
 
 // --------- Einstellungen ---------
-const char* WIFI_SSID = "Wilma2000";
-const char* WIFI_PASS = "14D12k82";
+const char* WIFI_SSID = "SSID";
+const char* WIFI_PASS = "PWD";
 const char* HOSTNAME  = "envtx";        // Sender-Hostname
 const char* RX_HOST   = "envrx";        // Empfänger-Hostname (ohne ".local")
 const char* TOKEN     = "secret123";    // muss zum Empfänger passen
