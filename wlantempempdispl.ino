@@ -16,8 +16,8 @@
 #include <TM1637Display.h>
 
 // ===== WLAN / Server =====
-const char* WIFI_SSID = "Wilma2001_Ext";
-const char* WIFI_PASS = "14D12k82";
+const char* WIFI_SSID = "SSID";
+const char* WIFI_PASS = "PWD";
 const char* HOSTNAME  = "envrx";          // -> envrx.local
 const char* TOKEN     = "secret123";      // Schreibschutz für /update
 ESP8266WebServer server(80);
